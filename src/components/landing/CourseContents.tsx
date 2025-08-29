@@ -48,14 +48,14 @@ export default function CourseContents() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
-            <Card key={index} className="flex flex-col overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <Card key={index} className="flex flex-col overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 rounded-2xl">
               <CardHeader className="flex flex-row items-center gap-4 pb-4">
-                {feature.icon}
+                <div className="p-3 bg-primary/10 rounded-full">{feature.icon}</div>
                 <CardTitle className="text-lg font-bold">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
                 <p className="text-muted-foreground">{feature.description}</p>
-                <div className="mt-4 aspect-video rounded-md overflow-hidden border">
+                <div className="mt-4 aspect-video rounded-xl overflow-hidden border">
                     <Image 
                         src={feature.image}
                         alt={`Mockup de ${feature.title}`}

@@ -20,7 +20,7 @@ export default function Offer() {
   return (
     <section id="oferta" className="py-16 sm:py-24 bg-gradient-to-b from-primary/5 to-background">
       <div className="container mx-auto px-4">
-        <Card className="max-w-4xl mx-auto bg-card/80 backdrop-blur-sm border-2 border-accent shadow-2xl shadow-accent/10">
+        <Card className="max-w-4xl mx-auto bg-card/80 backdrop-blur-sm border-2 border-accent shadow-2xl shadow-accent/10 rounded-3xl">
           <CardHeader className="text-center p-8">
             <h2 className="text-3xl sm:text-4xl font-black tracking-tighter text-foreground">
               Sua Vaga no Pro Sprint System
@@ -54,7 +54,7 @@ export default function Offer() {
                 </div>
               </div>
 
-              <div className="bg-background/50 rounded-lg p-6 flex flex-col items-center justify-center text-center border border-dashed">
+              <div className="bg-background/50 rounded-2xl p-6 flex flex-col items-center justify-center text-center border border-dashed">
                 <ShieldCheck className="w-16 h-16 text-accent" />
                 <h3 className="mt-4 text-xl font-bold text-foreground">Garantia Incondicional de 30 Dias</h3>
                 <p className="mt-2 text-muted-foreground">
@@ -65,7 +65,7 @@ export default function Offer() {
             <div className="mt-10 text-center">
               <p className="text-4xl sm:text-5xl font-black text-foreground tracking-tight">R$ 297</p>
               <p className="text-muted-foreground">ou 12x de R$ 28,94</p>
-              <Button size="lg" className="mt-6 w-full max-w-md mx-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg h-14 shadow-lg shadow-accent/20 transform hover:scale-105 transition-transform">
+              <Button size="lg" className="mt-6 w-full max-w-md mx-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg h-14 shadow-lg shadow-accent/20 transform hover:scale-105 transition-transform rounded-full">
                 Garantir minha vaga e começar agora
               </Button>
             </div>

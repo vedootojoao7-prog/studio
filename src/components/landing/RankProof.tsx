@@ -102,15 +102,15 @@ export default function RankProof() {
         </div>
 
         <Tabs defaultValue="plat-diamond" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 h-auto">
+          <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 h-auto rounded-full">
             {ranks.map(rank => (
-              <TabsTrigger key={rank.value} value={rank.value} className="py-2.5">{rank.name}</TabsTrigger>
+              <TabsTrigger key={rank.value} value={rank.value} className="py-2.5 rounded-full">{rank.name}</TabsTrigger>
             ))}
           </TabsList>
           
           {ranks.map(rank => (
             <TabsContent key={rank.value} value={rank.value} className="mt-8">
-              <Card className="overflow-hidden">
+              <Card className="overflow-hidden rounded-2xl">
                 <CardHeader>
                   <CardTitle>Transformação: {rank.name}</CardTitle>
                   <CardDescription>Aplicando 22 min/dia por {rank.duration}.</CardDescription>
@@ -119,7 +119,7 @@ export default function RankProof() {
                   <div className="grid md:grid-cols-2 gap-6 items-center">
                     <div className="space-y-4">
                       <h3 className="font-bold text-lg text-center text-muted-foreground">Antes</h3>
-                      <div className="relative aspect-video rounded-lg overflow-hidden border">
+                      <div className="relative aspect-video rounded-xl overflow-hidden border">
                         <Image src={rank.before.clip} alt={`Clipe antes - ${rank.name}`} width={600} height={400} className="object-cover" data-ai-hint={rank.before.aiHint} />
                         <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                           <PlayCircle className="w-16 h-16 text-white/70" />
@@ -133,7 +133,7 @@ export default function RankProof() {
                     </div>
                     <div className="space-y-4">
                       <h3 className="font-bold text-lg text-center text-primary">Depois</h3>
-                      <div className="relative aspect-video rounded-lg overflow-hidden border-2 border-primary">
+                      <div className="relative aspect-video rounded-xl overflow-hidden border-2 border-primary">
                         <Image src={rank.after.clip} alt={`Clipe depois - ${rank.name}`} width={600} height={400} className="object-cover" data-ai-hint={rank.after.aiHint}/>
                         <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                           <PlayCircle className="w-16 h-16 text-white/70" />
@@ -146,12 +146,12 @@ export default function RankProof() {
                       </div>
                     </div>
                   </div>
-                   <div className="mt-6 bg-primary/10 p-4 rounded-md text-center">
+                   <div className="mt-6 bg-primary/10 p-4 rounded-xl text-center">
                       <p className="font-medium text-primary"><span className="font-bold">Mudança-chave:</span> {rank.change}</p>
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Button asChild className="w-full md:w-auto ml-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
+                  <Button asChild className="w-full md:w-auto ml-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold rounded-full">
                     <Link href="#oferta">
                       Ver rotina do seu rank <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>

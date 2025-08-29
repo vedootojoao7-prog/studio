@@ -85,7 +85,7 @@ export default function PersonalizedRoutine() {
         }
         return <p key={index} className="ml-9 text-muted-foreground">{line}</p>;
       });
-  }
+  };
 
   return (
     <section id="rotina-personalizada" className="py-16 sm:py-24 bg-background/95">
@@ -100,7 +100,7 @@ export default function PersonalizedRoutine() {
         </div>
 
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-          <Card className="border-border">
+          <Card className="border-border rounded-2xl">
             <CardHeader>
               <CardTitle>Gere sua Rotina de Aquecimento</CardTitle>
               <CardDescription>É grátis e leva menos de 30 segundos.</CardDescription>
@@ -116,7 +116,7 @@ export default function PersonalizedRoutine() {
                         <FormLabel>Seu Rank Atual no Rocket League</FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
-                            <SelectTrigger>
+                            <SelectTrigger className="rounded-full">
                               <SelectValue placeholder="Selecione seu rank..." />
                             </SelectTrigger>
                           </FormControl>
@@ -130,7 +130,7 @@ export default function PersonalizedRoutine() {
                       </FormItem>
                     )}
                   />
-                  <Button type="submit" disabled={isPending} className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold h-12 text-base">
+                  <Button type="submit" disabled={isPending} className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold h-12 text-base rounded-full">
                     {isPending ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
@@ -148,7 +148,7 @@ export default function PersonalizedRoutine() {
             </CardContent>
           </Card>
           
-          <Card className="bg-card min-h-[360px] flex flex-col border-primary/20 shadow-lg shadow-primary/5">
+          <Card className="bg-card min-h-[360px] flex flex-col border-primary/20 shadow-lg shadow-primary/5 rounded-2xl">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-primary">
                 <Sparkles />

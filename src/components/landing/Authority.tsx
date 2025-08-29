@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { Award, ExternalLink, Milestone } from 'lucide-react';
 import Link from 'next/link';
 
@@ -42,7 +42,7 @@ export default function Authority() {
 
         <div className="grid md:grid-cols-5 gap-8 lg:gap-12 items-center">
           <div className="md:col-span-2">
-            <Card className="overflow-hidden border-2 border-primary/20">
+            <Card className="overflow-hidden border-2 border-primary/20 rounded-3xl">
               <CardContent className="p-0">
                 <Image
                   src="https://picsum.photos/400/500"
@@ -63,7 +63,7 @@ export default function Authority() {
             <div className="mt-8 space-y-6">
               {timelineEvents.map((event, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <div className="flex-shrink-0 mt-1 bg-primary/10 p-2 rounded-full">
+                  <div className="flex-shrink-0 mt-1 bg-primary/10 p-3 rounded-full">
                     {event.icon}
                   </div>
                   <div>

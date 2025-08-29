@@ -7,7 +7,7 @@ export default function ProblemSolution() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           
-          <Card className="bg-card/50 border-destructive/30">
+          <Card className="bg-card/50 border-destructive/30 rounded-2xl transform hover:-translate-y-2 transition-transform duration-300">
             <CardHeader>
               <div className="mx-auto bg-destructive/10 p-3 rounded-full w-fit">
                 <TrendingDown className="h-8 w-8 text-destructive" />
@@ -21,7 +21,7 @@ export default function ProblemSolution() {
             </CardContent>
           </Card>
           
-          <Card className="border-2 border-primary bg-primary/5">
+          <Card className="border-2 border-primary bg-primary/5 rounded-2xl transform hover:-translate-y-2 transition-transform duration-300">
             <CardHeader>
               <div className="mx-auto bg-primary/10 p-3 rounded-full w-fit">
                 <BrainCircuit className="h-8 w-8 text-primary" />
@@ -35,7 +35,7 @@ export default function ProblemSolution() {
             </CardContent>
           </Card>
 
-          <Card className="bg-card/50 border-green-500/30">
+          <Card className="bg-card/50 border-green-500/30 rounded-2xl transform hover:-translate-y-2 transition-transform duration-300">
             <CardHeader>
               <div className="mx-auto bg-green-500/10 p-3 rounded-full w-fit">
                 <TrendingUp className="h-8 w-8 text-green-500" />
@@ -50,7 +50,7 @@ export default function ProblemSolution() {
           </Card>
 
         </div>
-        <div className="mt-12 flex justify-center items-center gap-4 md:gap-8 text-foreground font-bold text-lg p-4 rounded-lg bg-card border">
+        <div className="mt-12 flex justify-center items-center gap-4 md:gap-8 text-foreground font-bold text-lg p-4 rounded-full bg-card border">
             <div className="flex items-center gap-2">
                 <TrendingUp className="h-6 w-6 text-green-500" />
                 <span>MMR ↑</span>

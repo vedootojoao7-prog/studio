@@ -7,9 +7,9 @@ import { CheckCircle2, Clock, ShieldCheck } from 'lucide-react';
 export default function Hero() {
   return (
     <>
-      <section className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 text-center bg-gradient-to-b from-background to-background/90">
+      <section className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 text-center bg-gradient-to-b from-background to-background/90 overflow-hidden">
         <div className="container mx-auto px-4 z-10">
-          <Badge variant="outline" className="border-primary/50 text-primary mb-4 py-1 px-3">
+          <Badge variant="outline" className="border-primary/50 text-primary mb-4 py-1.5 px-4 rounded-full">
             Método Pro Sprint DIAZ
           </Badge>
           
@@ -22,10 +22,10 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button asChild size="lg" className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base shadow-lg shadow-accent/20 transform hover:scale-105 transition-transform">
+            <Button asChild size="lg" className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base shadow-lg shadow-accent/20 transform hover:scale-105 transition-transform rounded-full">
               <Link href="#oferta">Começar agora</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="w-full sm:w-auto border-2 font-bold text-base">
+            <Button asChild size="lg" variant="outline" className="w-full sm:w-auto border-2 font-bold text-base rounded-full">
               <Link href="#provas">Ver provas por rank</Link>
             </Button>
           </div>
@@ -46,7 +46,7 @@ export default function Hero() {
           </div>
 
           <div className="relative mt-16 max-w-5xl mx-auto">
-            <div className="aspect-w-16 aspect-h-9 rounded-xl border-2 border-primary/20 shadow-2xl shadow-primary/10 overflow-hidden">
+            <div className="aspect-w-16 aspect-h-9 rounded-3xl border-2 border-primary/20 shadow-2xl shadow-primary/10 overflow-hidden">
               <Image 
                 src="https://picsum.photos/1200/675"
                 alt="Mockup do curso DiazRL em desktop e mobile"
