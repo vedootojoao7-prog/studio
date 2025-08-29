@@ -49,11 +49,11 @@ export default function Hero() {
             <div className="aspect-w-16 aspect-h-9 rounded-xl border-2 border-primary/20 shadow-2xl shadow-primary/10 overflow-hidden">
               <Image 
                 src="https://picsum.photos/1200/675"
-                alt="Mockup do curso RankRocket em desktop e mobile"
+                alt="Mockup do curso DiazRL em desktop e mobile"
                 width={1200}
                 height={675}
                 className="object-cover"
-                data-ai-hint="course mockup"
+                data-ai-hint="esports course"
                 priority
               />
             </div>

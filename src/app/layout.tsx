@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'RankRocket - Suba de rank no Rocket League',
+  title: 'DiazRL - Suba de rank no Rocket League',
   description: 'Do Plat ao GC em 30 dias com a rotina de 22 minutos do pro da Complexity.',
 };
 

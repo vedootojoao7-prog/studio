@@ -14,14 +14,14 @@ const ranks = [
       mmr: 720,
       winrate: '45%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'game screenshot'
+      aiHint: 'beginner gameplay'
     },
     after: {
       rank: 'Platina 1',
       mmr: 850,
       winrate: '62%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'gameplay video'
+      aiHint: 'improved gameplay'
     },
     change: 'Quick wins na primeira semana com progressões simples.',
     duration: '14 dias'
@@ -34,14 +34,14 @@ const ranks = [
       mmr: 1080,
       winrate: '51%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'gameplay video'
+      aiHint: 'intermediate gameplay'
     },
     after: {
       rank: 'Campeão 1',
       mmr: 1250,
       winrate: '58%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'game screenshot'
+      aiHint: 'advanced gameplay'
     },
     change: 'De overcommit para holds inteligentes e consistência.',
     duration: '30 dias'
@@ -54,14 +54,14 @@ const ranks = [
       mmr: 1515,
       winrate: '53%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'gameplay video'
+      aiHint: 'expert gameplay'
     },
     after: {
       rank: 'GC 2',
       mmr: 1680,
       winrate: '65%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'game screenshot'
+      aiHint: 'pro gameplay'
     },
     change: 'Frameworks táticos e meta reading para dominar o lobby.',
     duration: '30 dias'
@@ -74,14 +74,14 @@ const ranks = [
       mmr: 1800,
       winrate: '55%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'game screenshot'
+      aiHint: 'grand champion'
     },
     after: {
       rank: 'SSL',
       mmr: 1950,
       winrate: '68%',
       clip: 'https://picsum.photos/600/400',
-      aiHint: 'gameplay video'
+      aiHint: 'supersonic legend'
     },
     change: 'Preparação de série, VODs avançados e rotinas mentais.',
     duration: '45 dias'

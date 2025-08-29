@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div className="space-y-4">
             <h3 className="text-2xl font-black tracking-tighter text-primary">
-              RankRocket
+              DiazRL
             </h3>
             <p className="text-muted-foreground">O caminho mais rápido para o seu próximo rank no Rocket League.</p>
           </div>
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} RankRocket. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} DiazRL. Todos os direitos reservados.</p>
           <p className="mt-2 max-w-3xl mx-auto">
             Disclaimer: Resultados podem variar. As provas apresentadas são de alunos reais, mas seu progresso depende da sua dedicação ao método. Provas auditáveis no perfil Liquipedia do DIAZ e posts oficiais da Complexity.
           </p>

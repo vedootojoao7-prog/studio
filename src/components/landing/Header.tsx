@@ -24,7 +24,7 @@ export default function Header() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-2xl font-black tracking-tighter text-primary">
-            RankRocket
+            DiazRL
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">

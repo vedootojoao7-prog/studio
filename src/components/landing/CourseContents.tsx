@@ -8,28 +8,28 @@ const features = [
     title: '50+ Drills por Rank',
     description: 'Códigos e progressões para treinar exatamente o que seu rank precisa, do first touch a jogadas aéreas.',
     image: 'https://picsum.photos/400/300',
-    aiHint: 'code snippet'
+    aiHint: 'game training'
   },
   {
     icon: <Gamepad2 className="w-8 h-8 text-primary" />,
     title: 'Frameworks de Decisão',
     description: 'Aprenda a pensar como um pro: quando pressionar, como ser o segundo homem e controlar o boost.',
     image: 'https://picsum.photos/400/300',
-    aiHint: 'flow chart'
+    aiHint: 'strategy session'
   },
   {
     icon: <FileText className="w-8 h-8 text-primary" />,
     title: 'Planilhas e Checklists',
     description: 'Acompanhe seu progresso com planilhas semanais e checklists situacionais para usar em jogo.',
     image: 'https://picsum.photos/400/300',
-    aiHint: 'spreadsheet interface'
+    aiHint: 'progress tracker'
   },
   {
     icon: <Users className="w-8 h-8 text-primary" />,
     title: 'Comunidade e Reviews',
     description: '2 reviews de replay por mês e acesso a uma comunidade Discord exclusiva para tirar dúvidas.',
     image: 'https://picsum.photos/400/300',
-    aiHint: 'chat application'
+    aiHint: 'online community'
   },
 ];
 
