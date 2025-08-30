@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
           
           <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground">
-            Treinos curtos e focados, validados por um pro player, que transformam sua tomada de decisão e consistência em vitórias de verdade — sem precisar de um grind infinito.
+            Treinos curtos e focados, validados por um pro player, que transformam sua tomada de decisão e consistência em vitórias de verdade sem precisar de um grind infinito.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
