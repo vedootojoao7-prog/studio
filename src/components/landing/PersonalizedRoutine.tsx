@@ -6,6 +6,8 @@ import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { personalizedTrainingRoutine } from '@/ai/flows/personalized-training-routine';
 import { useToast } from "@/hooks/use-toast"
+import { useInView } from 'react-intersection-observer';
+import { cn } from '@/lib/utils';
 
 import { Button } from "@/components/ui/button"
 import {
@@ -46,6 +48,11 @@ export default function PersonalizedRoutine() {
   const [routine, setRoutine] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
   const { toast } = useToast();
+
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
@@ -89,7 +96,7 @@ export default function PersonalizedRoutine() {
 
   return (
     <section id="rotina-personalizada" className="py-16 sm:py-24 bg-background/95">
-      <div className="container mx-auto px-4">
+      <div ref={ref} className={cn("container mx-auto px-4 transition-all duration-500", inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10')}>
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-black tracking-tighter text-foreground">
             Experimente a Rotina de 22 Minutos

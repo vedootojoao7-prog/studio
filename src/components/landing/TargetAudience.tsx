@@ -5,33 +5,33 @@ const audiences = [
   {
     rank: 'Platina / Diamante',
     points: [
-      'Ganha consistência para sair do "sobe e desce".',
-      'Rotina curta que se encaixa na sua vida.',
-      'Elimina o overcommit e a falta de boost.',
+      'Ganha consistência para finalmente sair do "sobe e desce".',
+      'Encaixa uma rotina curta e eficiente na sua vida corrida.',
+      'Aprende a parar de dar overcommit e a ter boost na hora certa.',
     ],
   },
   {
     rank: 'Champion / GC',
     points: [
-      'Aprende frameworks táticos para ler o meta.',
-      'Usa checklists para decisões em tempo real.',
-      'Transforma mecânicas em vitórias consistentes.',
+      'Aprende táticas para ler o meta e antecipar jogadas.',
+      'Usa checklists para tomar decisões rápidas em jogo.',
+      'Transforma suas mecânicas em vitórias consistentes.',
     ],
   },
   {
     rank: 'GC → SSL',
     points: [
-      'Prepara-se para séries e torneios.',
-      'Acesso a VOD reviews de nível profissional.',
-      'Desenvolve rotinas mentais para alta performance.',
+      'Prepara-se de verdade para competir em séries e torneios.',
+      'Tem acesso a análises de VODs de nível profissional.',
+      'Desenvolve a mentalidade para a mais alta performance.',
     ],
   },
   {
     rank: 'Bronze / Prata / Ouro',
     points: [
-      '"Quick wins" para ver resultado na primeira semana.',
-      'Progressões simples para não se sentir perdido.',
-      'Foco nos fundamentos que realmente importam.',
+      'Conquistas rápidas para ver resultado já na primeira semana.',
+      'Progressão simples para nunca mais se sentir perdido.',
+      'Foco nos fundamentos que realmente fazem a diferença.',
     ],
   },
 ];

@@ -1,34 +1,34 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Code, Users, Gamepad2, FileText, CalendarDays, BarChart3 } from 'lucide-react';
+import { Code, Users, Gamepad2, FileText } from 'lucide-react';
 import Image from 'next/image';
 
 const features = [
   {
     icon: <Code className="w-8 h-8 text-primary" />,
-    title: '50+ Drills por Rank',
-    description: 'Códigos e progressões para treinar exatamente o que seu rank precisa, do first touch a jogadas aéreas.',
-    image: 'https://picsum.photos/400/300',
+    title: 'Mais de 50 Drills por Rank',
+    description: 'Códigos e progressões para treinar o que seu rank precisa, do básico às jogadas aéreas mais complexas.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
     aiHint: 'game training'
   },
   {
     icon: <Gamepad2 className="w-8 h-8 text-primary" />,
-    title: 'Frameworks de Decisão',
-    description: 'Aprenda a pensar como um pro: quando pressionar, como ser o segundo homem e controlar o boost.',
-    image: 'https://picsum.photos/400/300',
+    title: 'Modelos de Decisão',
+    description: 'Aprenda a pensar como um pro: quando pressionar, como se portar sendo o segundo homem e como gerenciar seu boost.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
     aiHint: 'strategy session'
   },
   {
     icon: <FileText className="w-8 h-8 text-primary" />,
     title: 'Planilhas e Checklists',
-    description: 'Acompanhe seu progresso com planilhas semanais e checklists situacionais para usar em jogo.',
-    image: 'https://picsum.photos/400/300',
+    description: 'Acompanhe seu progresso com planilhas e checklists práticos para usar durante as partidas.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
     aiHint: 'progress tracker'
   },
   {
     icon: <Users className="w-8 h-8 text-primary" />,
-    title: 'Comunidade e Reviews',
-    description: '2 reviews de replay por mês e acesso a uma comunidade Discord exclusiva para tirar dúvidas.',
-    image: 'https://picsum.photos/400/300',
+    title: 'Comunidade e Análises',
+    description: 'Receba 2 análises de replay por mês e tenha acesso a uma comunidade exclusiva no Discord para tirar dúvidas.',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
     aiHint: 'online community'
   },
 ];

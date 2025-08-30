@@ -45,7 +45,7 @@ export default function Authority() {
             <Card className="overflow-hidden border-2 border-primary/20 rounded-3xl">
               <CardContent className="p-0">
                 <Image
-                  src="https://picsum.photos/400/500"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s"
                   alt="Foto do DIAZ, pro player de Rocket League"
                   width={400}
                   height={500}

@@ -13,17 +13,17 @@ const ranks = [
       rank: 'Ouro 2',
       mmr: 720,
       winrate: '45%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'beginner gameplay'
     },
     after: {
       rank: 'Platina 1',
       mmr: 850,
       winrate: '62%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'improved gameplay'
     },
-    change: 'Quick wins na primeira semana com progressões simples.',
+    change: 'Ganhos rápidos na primeira semana com progressões simples.',
     duration: '14 dias'
   },
   {
@@ -33,14 +33,14 @@ const ranks = [
       rank: 'Diamante 1',
       mmr: 1080,
       winrate: '51%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'intermediate gameplay'
     },
     after: {
       rank: 'Campeão 1',
       mmr: 1250,
       winrate: '58%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'advanced gameplay'
     },
     change: 'De overcommit para holds inteligentes e consistência.',
@@ -53,17 +53,17 @@ const ranks = [
       rank: 'GC 1',
       mmr: 1515,
       winrate: '53%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'expert gameplay'
     },
     after: {
       rank: 'GC 2',
       mmr: 1680,
       winrate: '65%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'pro gameplay'
     },
-    change: 'Frameworks táticos e meta reading para dominar o lobby.',
+    change: 'Frameworks táticos e leitura de meta para dominar o lobby.',
     duration: '30 dias'
   },
   {
@@ -73,17 +73,17 @@ const ranks = [
       rank: 'GC 3',
       mmr: 1800,
       winrate: '55%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'grand champion'
     },
     after: {
       rank: 'SSL',
       mmr: 1950,
       winrate: '68%',
-      clip: 'https://picsum.photos/600/400',
+      clip: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s',
       aiHint: 'supersonic legend'
     },
-    change: 'Preparação de série, VODs avançados e rotinas mentais.',
+    change: 'Preparação para competir, VODs avançados e rotinas para a mente.',
     duration: '45 dias'
   },
 ];

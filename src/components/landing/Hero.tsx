@@ -14,11 +14,11 @@ export default function Hero() {
           </Badge>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter text-foreground max-w-4xl mx-auto">
-            Do Plat ao GC em 30 dias com a rotina de <span className="text-primary">22 minutos</span> do pro da Complexity.
+            Do Platina ao Grand Champion em 30 dias com a rotina de <span className="text-primary">22 minutos</span> do pro da Complexity.
           </h1>
           
           <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground">
-            Treinos curtos, dirigidos e validados por DIAZ que transformam decisão e consistência em MMR real — sem grind infinito.
+            Treinos curtos e focados, validados por um pro player, que transformam sua tomada de decisão e consistência em vitórias de verdade — sem precisar de um grind infinito.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -48,7 +48,7 @@ export default function Hero() {
           <div className="relative mt-16 max-w-5xl mx-auto">
             <div className="aspect-w-16 aspect-h-9 rounded-3xl border-2 border-primary/20 shadow-2xl shadow-primary/10 overflow-hidden">
               <Image 
-                src="https://picsum.photos/1200/675"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s"
                 alt="Mockup do curso DiazRL em desktop e mobile"
                 width={1200}
                 height={675}
