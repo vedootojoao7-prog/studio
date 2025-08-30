@@ -1,14 +1,23 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle2, Clock, ShieldCheck } from 'lucide-react';
+import { useInView } from 'react-intersection-observer';
+import { cn } from '@/lib/utils';
 
 export default function Hero() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
   return (
     <>
-      <section className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 text-center bg-gradient-to-b from-background to-background/90 overflow-hidden">
-        <div className="container mx-auto px-4 z-10">
+      <section ref={ref} className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 text-center bg-gradient-to-b from-background to-background/90 overflow-hidden">
+        <div className={cn("container mx-auto px-4 z-10 transition-all duration-700", inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10')}>
           <Badge variant="outline" className="border-primary/50 text-primary mb-4 py-1.5 px-4 rounded-full">
             Método Pro Sprint DIAZ
           </Badge>
@@ -33,7 +42,7 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-primary" />
-              Validado por Pro
+              Validado por jogadores profisionais
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-primary" />
@@ -46,7 +55,7 @@ export default function Hero() {
           </div>
 
           <div className="relative mt-16 max-w-5xl mx-auto">
-            <div className="aspect-w-16 aspect-h-9 rounded-3xl border-2 border-primary/20 shadow-2xl shadow-primary/10 overflow-hidden">
+            <div className={cn("aspect-w-16 aspect-h-9 rounded-3xl border-2 border-primary/20 shadow-2xl shadow-primary/10 overflow-hidden transition-all duration-700 delay-300", inView ? 'opacity-100 scale-100' : 'opacity-0 scale-95')}>
               <Image 
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClOHV7gbTsCR9JFeNZX_fj_ud768VvFm4KA&s"
                 alt="Mockup do curso DiazRL em desktop e mobile"
